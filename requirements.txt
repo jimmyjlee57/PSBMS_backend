@@ -4,7 +4,7 @@ gunicorn
 
 Markdown
 
-Pillow=
+Pillow
 
 django-filter
 
