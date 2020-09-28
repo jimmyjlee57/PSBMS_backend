@@ -129,9 +129,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-ON_HEROKU = 'ON_HEROKU' in os.environ
-if ON_HEROKU:
-    django_heroku.settings(locals())
+# ON_HEROKU = 'ON_HEROKU' in os.environ
+# if ON_HEROKU:
+#     django_heroku.settings(locals())
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
