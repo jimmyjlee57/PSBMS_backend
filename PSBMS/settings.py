@@ -136,7 +136,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "Personal-and-Small-Business-Management-System/../ExpenseManagement/templates/static"),
+    os.path.join(BASE_DIR, "PSBMS/../ExpenseManagement/templates/static"),
     'ExpenseManagement/templates/static',
 ]
 

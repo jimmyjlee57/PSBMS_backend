@@ -1,1 +1,1 @@
-web: gunicorn Personal-and-Small-Business-Management-System.wsgi --log-file -
+web: gunicorn PSBMS.wsgi --log-file -
