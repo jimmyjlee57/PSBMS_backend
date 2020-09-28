@@ -24,7 +24,7 @@ class UserDetails(models.Model):
 class Expenses(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=200, null=True)
-    description = models.TextField()
+    description = models.TextField(blank=True, null=True)
     amount = models.DecimalField(blank=True, null=True,  max_digits=19, decimal_places=2)
     dateTime = models.DateTimeField(blank=True, null=True)
 
