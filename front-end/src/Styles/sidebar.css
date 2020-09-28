@@ -1,0 +1,214 @@
+.box{
+    width: 320px;
+    height: 60vh;
+    color: aqua;
+}
+
+.sidebar-active{
+position: absolute;
+width: 20.5vw;
+height: 80vh;
+left: 0px;
+top: 10vh;
+background: black;
+transition: 800ms;
+}
+
+.sidebar-nonactive{
+position: absolute;
+width: 5vw;
+height: 80vh;
+left: 0px;
+top: 10vh;
+background: black;
+transition: 450ms;
+}
+
+.mini1{
+    position: absolute;
+    width: 20vw;
+    height: 12vh;
+    left: 0px;
+    top: 2vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: #FF0000;
+    transition: 800ms;
+}
+
+.mini1-non{
+    position: absolute;
+    width: 5vw;
+    height: 12vh;
+    left: 0px;
+    top: 2vh;
+    color: black;
+    background: black;
+    transition: 450ms;
+}
+
+.mini2{
+    position: absolute;
+    width: 20vw;
+    height: 12vh;
+    left: 0px;
+    top: 14vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: #FF4848;
+    transition: 800ms;
+}
+.mini2-non{
+    position: absolute;
+    width: 5vw;
+    height: 12vh;
+    left: 0px;
+    top: 14vh;
+    color: black;
+    background: black;
+    transition: 450ms;
+}
+
+.mini3{
+    position: absolute;
+    width: 20vw;
+    height: 12vh;
+    left: 0px;
+    top: 26vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: #FF7676;
+    transition: 800ms;
+}
+.mini3-non{
+    position: absolute;
+    width: 5vw;
+    height: 12vh;
+    left: 0px;
+    top: 26vh;
+    color: black;
+    background: black;
+    transition: 450ms;
+}
+
+.mini4{
+    position: absolute;
+    width: 20vw;
+    height: 12vh;
+    left: 0px;
+    top: 38vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: #FF9B9B;
+    transition: 800ms;
+}
+.mini4-non{
+    position: absolute;
+    width: 5vw;
+    height: 12vh;
+    left: 0px;
+    top: 38vh;
+    color: black;
+    background: black;
+    transition: 450ms;
+}
+
+.mini5{
+    position: absolute;
+    width: 20vw;
+    height: 12vh;
+    left: 0px;
+    top: 50vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: #FFC8C8;
+    transition: 800ms;
+}
+.mini5-non{
+    position: absolute;
+    width: 5vw;
+    height: 12vh;
+    left: 0px;
+    top: 50vh;
+    color: black;
+    background: black;
+    transition: 450ms;
+}
+
+.mini6{
+    position: absolute;
+    width: 20vw;
+    height: 2vh;
+    left: 0px;
+    top: 0vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: black;
+    transition: 800ms;
+}
+.mini6-non{
+    position: absolute;
+    width: 5vw;
+    height: 2vh;
+    left: 0px;
+    top: 0vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: black;
+    transition: 450ms;
+}
+
+.mini7{
+    position: absolute;
+    width: 20vw;
+    height: 2vh;
+    left: 0px;
+    top: 78vh;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    background: black;
+}
+
+.dot {
+    position: relative;
+    top: 70vh;
+    left: 16vw;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 800ms;
+  }
+
+.dot-non {
+    position: relative;
+    top: 70vh;
+    left: 2vw;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 450ms;
+}
+
+.form{
+    position: absolute;
+    left: 30vw;
+    width: 50vw;
+    height: 60vh;
+    background: lightgray;
+}
+
+.form-non{
+    visibility: hidden;
+}

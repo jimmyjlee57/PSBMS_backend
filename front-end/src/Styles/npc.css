@@ -1,0 +1,28 @@
+.form{
+    position: absolute;
+    left: 30vw;
+    width: 50vw;
+    height: 60vh;
+    background: lightgray;
+}
+
+.form-non{
+    visibility: hidden;
+}
+
+.space1{
+    position: relative;
+    left: 40px;
+    width: 160px;
+    height: 60px;
+    background: white;
+    top: 40px;
+}
+
+.space1{
+    position: relative;
+    left: 40px;
+    height: 60px;
+    background: red;
+    top: 40px;
+}
