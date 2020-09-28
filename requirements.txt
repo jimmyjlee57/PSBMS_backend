@@ -1,13 +1,16 @@
-Django==1.11.5
+Django
 
-gunicorn==19.7.1
+gunicorn
 
-Markdown==2.6.9
+Markdown
 
-Pillow==2.3.0
+Pillow=
 
-django-filter==1.0.4
+django-filter
 
-djangorestframework==3.6.4
+djangorestframework
 
-whitenoise==3.3.1
+whitenoise
+
+django-heroku
+
