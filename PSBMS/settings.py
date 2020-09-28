@@ -133,6 +133,13 @@ ON_HEROKU = 'ON_HEROKU' in os.environ
 if ON_HEROKU:
     django_heroku.settings(locals())
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "Personal-and-Small-Business-Management-System/../ExpenseManagement/templates/static"),
+    'ExpenseManagement/templates/static',
+]
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
