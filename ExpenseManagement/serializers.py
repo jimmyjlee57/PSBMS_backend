@@ -12,13 +12,12 @@ class ExpensesSerializers(serializers.ModelSerializer):
 		model = Expenses
 		fields ='__all__'
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = User
-        fields = ['url', 'username', 'email', 'groups']
+class ReminderSerializers(serializers.ModelSerializer):
+	class Meta:
+		model = Reminder
+		fields ='__all__'
 
-
-class GroupSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Group
-        fields = ['url', 'name']
+class BillMonitorSerializers(serializers.ModelSerializer):
+	class Meta:
+		model = BillMonitor
+		fields ='__all__'
