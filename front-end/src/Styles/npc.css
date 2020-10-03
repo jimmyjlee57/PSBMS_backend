@@ -12,17 +12,43 @@
 
 .space1{
     position: relative;
-    left: 40px;
-    width: 160px;
+    left: 130px;
+    width: 30vw;
     height: 60px;
-    background: white;
-    top: 40px;
+    background:  lightblue;
+    top: 80px;
 }
 
-.space1{
+.space2{
     position: relative;
-    left: 40px;
+    left: 130px;
+    width: 30vw;
     height: 60px;
-    background: red;
-    top: 40px;
+    background: lightblue;
+    top: 130px;
+}
+
+.space3{
+    position: relative;
+    left: 130px;
+    width: 30vw;
+    height: 60px;
+    background: lightblue;
+    top: 180px;
+}
+
+.space4{
+    position: relative;
+    left: -160px;
+    width: 10vw;
+    height: 40px;
+    background: black;
+    top: 260px;
+}
+
+.title{
+    position: absolute;
+    left: 140px;
+    height: 40px;
+    top: 0px;
 }
