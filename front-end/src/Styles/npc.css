@@ -1,4 +1,4 @@
-.form{
+.formN{
     position: absolute;
     left: 30vw;
     width: 50vw;
@@ -6,11 +6,11 @@
     background: lightgray;
 }
 
-.form-non{
+.form-nonN{
     visibility: hidden;
 }
 
-.space1{
+.space11{
     position: relative;
     left: 130px;
     width: 30vw;
@@ -19,16 +19,16 @@
     top: 80px;
 }
 
-.space2{
+.space22{
     position: relative;
     left: 130px;
     width: 30vw;
     height: 60px;
     background: lightblue;
-    top: 130px;
+    top: 150px;
 }
 
-.space3{
+.space33{
     position: relative;
     left: 130px;
     width: 30vw;
@@ -37,7 +37,7 @@
     top: 180px;
 }
 
-.space4{
+.space44{
     position: relative;
     left: -160px;
     width: 10vw;

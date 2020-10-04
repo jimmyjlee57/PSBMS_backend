@@ -9,11 +9,11 @@ function BasicTextFields() {
   const showVisible = () => setVisible(!visible);
 
   return (
-    <form className = {!visible ? 'form' : 'form-non'}>
-    <TextField id="outlined-search" label="State" type="search" variant="outlined" className = "space1"/>
-    <TextField id="outlined-search" label="Hours" type="search" variant="outlined" className = "space2"/>
-    <TextField id="outlined-search" label="$ Per Hour" type="search" variant="outlined" className = "space3"/>
-      <Button variant="outlined" color="secondary" className = "space4" onClick={showVisible}>
+    <form className = {!visible ? 'formN' : 'form-nonN'}>
+    <TextField id="outlined-search" label="State" type="search" variant="outlined" className = "space11"/>
+    <TextField id="outlined-search" label="Hours" type="search" variant="outlined" className = "space22"/>
+    <TextField id="outlined-search" label="$ Per Hour" type="search" variant="outlined" className = "space33"/>
+      <Button variant="outlined" color="secondary" className = "space44" onClick={showVisible}>
         Submit
       </Button>
       <h1 className = "title">Next Payment Calculation</h1>

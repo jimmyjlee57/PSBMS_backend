@@ -1,0 +1,66 @@
+.formC{
+    position: absolute;
+    left: 30vw;
+    width: 50vw;
+    height: 60vh;
+    background: lightgray;
+    overflow: auto;
+}
+
+.spaceC{
+    position: relative;
+    left: 100px;
+    width: 10vw;
+    height: 60px;
+    background:  lightblue;
+    top: 40px;
+}
+
+.space2C{
+    position: relative;
+    left: 260px;
+    width: 10vw;
+    height: 60px;
+    background: lightblue;
+    top: 40px;
+}
+
+.tableC{
+    position: relative;
+    left: 40px;
+    width: 25vw;
+    height: 30px;
+    background: lightblue;
+    top: 60px;
+    border-style: double;
+    border-color: black;
+}
+
+.table-bodyL{
+    position: relative;
+    width: 25vw;
+    height: 5vh;
+    background: lightblue;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.table-bodyR{
+    position: relative;
+    width: 25vw;
+    height: 5vh;
+    background: lightblue;
+    border-bottom-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+
+.headerC{
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    height: 4vh;
+}
