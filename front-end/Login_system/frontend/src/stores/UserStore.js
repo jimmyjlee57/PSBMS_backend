@@ -1,5 +1,5 @@
 import { extendObservable } from 'mobx';
-
+//@flow
 /**
 *UserStore
 */
