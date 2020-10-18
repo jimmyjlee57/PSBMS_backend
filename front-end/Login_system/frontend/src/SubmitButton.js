@@ -1,5 +1,5 @@
 import React from 'react';
-//@flow
+
 
 class  SubmitButton extends React.Component {
 

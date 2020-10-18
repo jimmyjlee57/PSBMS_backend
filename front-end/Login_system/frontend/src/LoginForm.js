@@ -2,7 +2,7 @@ import React 		from 'react';
 import InputField 	from './InputField';
 import SubmitButton from './SubmitButton'; 
 import UserStore 	from './stores/UserStore'; 
-//@Flow
+
 
 class  LoginForm extends React.Component {
 
@@ -45,7 +45,7 @@ class  LoginForm extends React.Component {
 		})
 		try{
 
-			let res= await fetch('/login',{
+			let res= await fetch('/login', {
 				method: 'post',
 				headers: {
 					'Accept': 'application/json',
@@ -63,7 +63,7 @@ class  LoginForm extends React.Component {
 				UserStore.username = result.username;
 			}
 
-			else if(result && result.success==false){
+			else if(result && result.success === false){
 				this.resetForm();
 				alert(result.msg); 
 			}
@@ -98,7 +98,7 @@ class  LoginForm extends React.Component {
                 <SubmitButton
                 	text='Login'
                 	disabled={this.state.buttonDisabled}
-                	onClick={ () => this.doLogin}
+                	onClick={ () => this.doLogin()}
                 />
             </div>
         );

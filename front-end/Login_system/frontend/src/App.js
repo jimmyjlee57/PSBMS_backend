@@ -1,8 +1,9 @@
+//@flow
 import React        from 'react';
 import { observer } from  'mobx-react'
 import UserStore    from './stores/UserStore';
 import LoginForm    from './LoginForm';
-//@flow
+
 import SubmitButton from './SubmitButton'; 
 import './App.css';
 

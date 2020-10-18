@@ -1,5 +1,5 @@
 import { extendObservable } from 'mobx';
-//@flow
+
 /**
 *UserStore
 */
@@ -9,7 +9,6 @@ class UserStore{
 			loading: true, 
 			isLoggedIn: false, 
 			username: ''
-
 
 		})
 	}
