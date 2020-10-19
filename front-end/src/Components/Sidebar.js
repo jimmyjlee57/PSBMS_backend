@@ -18,11 +18,11 @@ function Sidebar(){
     //const showNPC = () => setNPC(!NPC);
     function increaseFont(e) {
         //e.target.style.background = 'white';
-        e.target.style.fontSize = '34px';
+        e.target.style.color = 'white';
       }
     function decreaseFont(e) {
         //e.target.style.background = 'white';
-        e.target.style.fontSize = '28px';
+        e.target.style.color = 'black';
     }
 
     
